@@ -40,4 +40,4 @@ class OrderItem(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     created_at = models.DateTimeField(auto.now=True)
     updated_at = models.DateTimeField(auto.now=True)
-  
+    
