@@ -15,4 +15,3 @@ router.register(r'order-items', OrderItemViewSet)
 urlpatterns = [
     path('', include(router.urls)),
 ]
-
