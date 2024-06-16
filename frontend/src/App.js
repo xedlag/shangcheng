@@ -1,4 +1,4 @@
-// App.js
+// src/App.js
 // React 应用的主组件，定义路由和页面结构。
 
 import React from 'react';
