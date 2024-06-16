@@ -45,41 +45,76 @@ docker-compose up --build
 访问 React 前端：http://localhost:3000
 
 项目结构
-online_store/
+store/
+
 ├── backend/
+
 │   ├── manage.py
+
 │   ├── online_store/
+
 │   │   ├── __init__.py
+
 │   │   ├── settings.py
+
 │   │   ├── urls.py
+
 │   │   ├── wsgi.py
+
 │   ├── store/
+
 │   │   ├── __init__.py
+
 │   │   ├── admin.py
+
 │   │   ├── apps.py
+
 │   │   ├── models.py
+
 │   │   ├── serializers.py
+
 │   │   ├── tests.py
+
 │   │   ├── urls.py
+
 │   │   ├── views.py
+
 ├── frontend/
+
 │   ├── public/
+
 │   │   ├── favicon.ico
+
 │   │   ├── index.html
+
 │   │   ├── logo192.png
+
 │   │   ├── logo512.png
+
 │   │   ├── manifest.json
+
 │   │   ├── robots.txt
+
 │   ├── src/
+
 │   │   ├── components/
+
 │   │   │   ├── App.js
+
 │   │   │   ├── Cart.js
+
 │   │   │   ├── OrderHistory.js
+
 │   │   │   ├── ProductList.js
+
 │   │   ├── App.js
+
 │   │   ├── index.js
+
 │   ├── package.json
+
 ├── README.md
+
 
 贡献指南
 1、Fork 该仓库。
