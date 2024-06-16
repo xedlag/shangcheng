@@ -1,11 +1,11 @@
-// App.js
+// src/components/App.js
 // React 应用的主组件，定义路由和页面结构。
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ProductList from './components/ProductList';
-import Cart from './components/Cart';
-import OrderHistory from './components/OrderHistory';
+import ProductList from './ProductList';
+import Cart from './Cart';
+import OrderHistory from './OrderHistory';
 
 function App() {
   return (
